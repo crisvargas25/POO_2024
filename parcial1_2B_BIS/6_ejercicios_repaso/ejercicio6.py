@@ -5,4 +5,4 @@ for i in range(1,11):
     for m in range(1,11):
         resultado=m*i
         print(f" {i} x {m} = {resultado}")
-print()
+    print()

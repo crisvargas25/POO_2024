@@ -10,7 +10,7 @@ for i in range(1,16):
     elif cali<80:
         reprobados+=1
     elif cali>100:
-        print("respuesta no válida")
+        print("respuesta no válida ")
 
 print(f"cantidad de alumnos aprobados: {aprobados}")
 print(f"cantidad de alumnos reprobados: {reprobados}")

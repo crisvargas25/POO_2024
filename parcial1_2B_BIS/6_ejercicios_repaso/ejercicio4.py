@@ -17,5 +17,5 @@ multi=n1*n2
 print(f"{n1} x {n2} = {multi}")
 div=n1/n2
 div2=n2/n1
-print(f"{n1} / {n2} = {div}")
-print(f"{n2} / {n1} = {div2}")
+print(f"{n1} / {n2} = {div} ")
+print(f"{n2} / {n1} = {div2} ")
