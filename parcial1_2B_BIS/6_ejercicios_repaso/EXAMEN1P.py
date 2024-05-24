@@ -16,11 +16,13 @@ while True:
     print(f"Carrera: {carrera}")
     print(f"Promedio parciales: {promedioP}")
     print(f"Promedio FINAL: {final}")
-    if final<80 or proyecto<50:
+    estudiantes+=1
+    if final<80 and proyecto>50:
         print("\n Presenta examen extraordinario")
-        estudiantes+=1
     continuar=input("\n Deseas otra captura (SI/NO)?").upper()
-    if continuar != "SI":
+    if continuar == "SI":
+        continue
+    else:
         break
 
 promedioFINAL=promedioTODOS/estudiantes
