@@ -1,3 +1,4 @@
+# Aqui replicamos el video de lei
 # Esta es una variable global
 x = 10
 
@@ -21,7 +22,7 @@ print("Fuera de la función, x (global) es:", x)
 # print(y)  # Esto daría un error
 
 
-#VARIABLES LOCALEEES
+#VARIABLES LOCALES
 def calcular_area_rectangulo(base, altura):
     # Estas son variables locales
     area = base * altura

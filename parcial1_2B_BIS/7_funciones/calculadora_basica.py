@@ -39,7 +39,7 @@ while opcion:
         n1,n2=solicitarDatos()
         print(getCalculadora(n1,n2,opcion))
         esperaTecla()
-        os.system("cls")
+        os.system("clear")
     else:
         opcion=False
         print("Gracias por utilizar la calculadora")
