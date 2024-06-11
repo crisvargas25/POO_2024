@@ -17,7 +17,7 @@ while True:
 
     print(f"Su IMC es: {imc}")
     print(f"Clasificación: {composición}")
-    
+
     calculos=+1
 
     continuar=input("\n Deseas otra captura (SI/NO)?").upper()
@@ -27,8 +27,3 @@ while True:
         break
 
 print(f"Total de cálculos de IMC realizados: {calculos}")
-
-    
-
-         
-         
